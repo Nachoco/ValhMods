@@ -1,0 +1,41 @@
+- manifestVersion: 1
+  name: denikson-BepInExPack_Valheim
+  authorName: denikson
+  websiteUrl: https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/
+  displayName: BepInExPack_Valheim
+  description: BepInEx pack for Valheim. Preconfigured and includes unstripped Unity DLLs.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2202
+  enabled: true
+  icon: C:\Users\Nachoco\AppData\Roaming\r2modmanPlus-local\Valheim\cache\denikson-BepInExPack_Valheim\5.4.2202\icon.png
+- manifestVersion: 1
+  name: Crystal-ProperPortals
+  authorName: Crystal
+  websiteUrl: https://valheim.thunderstore.io/package/Crystal/ProperPortals/
+  displayName: ProperPortals
+  description: Carry anything through portals and shorter teleport load screens.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2202
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 5
+  enabled: true
+  icon: C:\Users\Nachoco\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Crystal-ProperPortals\1.2.5\icon.png
